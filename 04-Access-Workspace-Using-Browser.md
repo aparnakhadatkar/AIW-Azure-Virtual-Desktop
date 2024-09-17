@@ -5,12 +5,6 @@
 
 In this exercise, we will access the Desktop and RemoteApps assigned to us in the previous exercise using browser.
 
-1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
-
-1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **RemoteApp** and click **Save**.
-
-   ![ws name.](media/1.1.png)
-
 1. Open the following URL in a new browser tab in the JumpVM. This URL will lead us to the Remote Desktop Web Client.
 
    ```aka.ms/wvdarmweb``` 
@@ -77,13 +71,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 ## **Task 2: Access the published Desktop**
 
-1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
-
-1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
-
-1. Refresh the **Remote Desktop Web Client** page.
+1. On the top-left side of Remote Desktop Web Client, click on **All Resources**.
+   
+   ![ws name.](media/w12.png)
       
-2. Click on the tile named *Session Desktop* to launch the desktop.
+2. We will land on the AVD dashboard again. Click on the tile named *Session Desktop* to launch the desktop.
+
+   ![ws name.](media/session.png)
 
 3. Select **Allow** on the prompt asking permission to *Access local resources*.
 

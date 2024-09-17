@@ -144,6 +144,7 @@ In this task, we will install and configure FSLogix in the **AVD-HP01-SH-0** ses
    
 6. **Copy** the script is given below and paste it by pressing **Ctrl + V** in the Powershell window. **Do not** run the script right away.
 
+
 ```
  #Variables
 $storageAccountName = "NameofStorageAccount" 
@@ -344,15 +345,9 @@ New-Item -Path "$LabFilesDirectory\FSLogix" -ItemType Directory |Out-Null
     
      ![](media/login.png)
 
-1. Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
-
-1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
-
-1. Return to WVD client application then click on three vertical dot then select **Refresh**.
-
 21. Click on the **Session Desktop** Desktop to launch it.
 
-    ![ws name.](media/ex4t2s2.png)
+    ![ws name.](media/ex3t2s2.png)
 
 22. Select Allow on the prompt asking permission to access local resources.
 
