@@ -52,6 +52,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 9. Make sure to **uncheck** *Allow my organization to manage my device* and click on **No, sign in to this app only**.
 
    ![ws name.](media/ex4t1s9.png)
+
+1. Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **RemoteApp** and click **Save**.
+
+1. Return to WVD client application then click on three vertical dot then select **Refresh**.
       
 10. The WVD dashboard will launch, then double click on **Excel** application to access it.
 
@@ -96,6 +102,12 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
     ![ws name.](media/jvm10.png)
    
 ## **Task 2: Access the Virtual Desktop**
+
+1. Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+
+1. Return to WVD client application then click on three vertical dot then select **Refresh**.
 
 1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 

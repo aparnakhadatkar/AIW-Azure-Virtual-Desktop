@@ -35,7 +35,7 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
 5. Once connected it will show up like the screenshot given below. Now we will jump to **Step 15**.
 
-   ![ws name.](media/labinst24.png)
+   ![ws name.](media/session.png)
 
 6. Open a browser in **Your Own PC/computer/workstation** (not within the JumpVM), copy and paste the following URL in that browser tab.
 
@@ -57,7 +57,13 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
 
     ![ws name.](media/wvd41.png)
 
-11. After installation, in your PC go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
+1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
+
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **RemoteApp** and click **Save**.
+
+   ![ws name.](media/1.1.png)
+
+11. Go to **Start** and search for **Remote desktop** and open the remote desktop application with exact icon as shown below.
 
     ![ws name.](media/137.png)
    
@@ -112,8 +118,15 @@ In this exercise, we will access the Desktop and RemoteApps assigned to us in th
    
 ## **Task 2: Access the Virtual Desktop**
 
+1.  Navigate to Azure portal, then search for *Host pools* in search bar and select **Host pools** from the suggestions.
 
-1. Return to WVD client application. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
+1. Navigate to **GS-AVD-HP**, then go to **Properties**. Under the **Preferred app group type**, choose **Desktop** and click **Save**.
+
+1. Return to WVD client application then click on three vertical dot then select **Refresh**.
+
+   ![ws name.](media/1.2.png)
+
+1. On WVD dashboard, click on the tile named **Session Desktop** to launch the desktop.
 
    ![ws name.](media/ex4t2s2.png)
    
